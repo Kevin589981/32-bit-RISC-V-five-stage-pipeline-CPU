@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jun  5 15:10:10 2025
+# Process ID: 1396
+# Current directory: D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.runs/synth_1
+# Command line: vivado.exe -log RISC_V_CPU_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_V_CPU_Top.tcl
+# Log file: D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.runs/synth_1/RISC_V_CPU_Top.vds
+# Journal file: D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RISC_V_CPU_Top.tcl -notrace

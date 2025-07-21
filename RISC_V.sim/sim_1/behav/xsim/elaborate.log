@@ -1,0 +1,34 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/AppGallery/Downloads/Vivago2019.2/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 0b31004ebadd48b7a8eddb6bb36a1fa4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_CPU_tb_behav xil_defaultlib.RISC_V_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Branch_Misprediction_Unit
+Compiling module xil_defaultlib.JAL_BEQ_Detection_Unit
+Compiling module xil_defaultlib.PC_Mux
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Branch_Predictor
+Compiling module xil_defaultlib.Unified_Memory
+Compiling module xil_defaultlib.IF_ID_reg
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.Immediate_Generator
+Compiling module xil_defaultlib.Hazard_Detection_Unit
+Compiling module xil_defaultlib.ID_Ex_reg
+Compiling module xil_defaultlib.Forwarding_Unit
+Compiling module xil_defaultlib.ALU_Input_Mux
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Branch_Target_Unit
+Compiling module xil_defaultlib.Ex_Mem_reg
+Compiling module xil_defaultlib.Mem_Wr_reg
+Compiling module xil_defaultlib.Wr_Mux
+Compiling module xil_defaultlib.RISC_V_CPU_Top
+Compiling module xil_defaultlib.RISC_V_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_CPU_tb_behav

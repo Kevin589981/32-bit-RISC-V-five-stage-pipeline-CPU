@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../RISC_V.srcs/sources_1/imports/Project/ALU.sv" \
+"../../../../RISC_V.srcs/sources_1/new/ALU_Input_Mux.sv" \
+"../../../../RISC_V.srcs/sources_1/new/Branch_Misprediction_Unit.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Branch_Predictor.sv" \
+"../../../../RISC_V.srcs/sources_1/new/Branch_Target_Unit.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Controller.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Ex_Mem_reg.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Forwarding_Unit.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Hazard_Detection_Unit.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/ID_Ex_reg.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/IF_ID_reg.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Immediate_Generator.sv" \
+"../../../../RISC_V.srcs/sources_1/new/JAL_Detection_Unit.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Mem_Wr_reg.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/PC.sv" \
+"../../../../RISC_V.srcs/sources_1/new/PC_Mux.sv" \
+"../../../../RISC_V.srcs/sources_1/new/RISC_V_CPU_Top.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Register_File.sv" \
+"../../../../RISC_V.srcs/sources_1/imports/Project/Unified_Memory.sv" \
+"../../../../RISC_V.srcs/sources_1/new/Wr_Mux.sv" \
+"../../../../RISC_V.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

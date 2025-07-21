@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_V_CPU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_V_CPU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1418928fs"></ZoomStartTime>
+      <ZoomEndTime time="1619541fs"></ZoomEndTime>
+      <Cursor1Time time="153531fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="159"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="/RISC_V_CPU_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/if_id_reg/IF_PC" type="array">
+      <obj_property name="ElementShortName">IF_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/if_id_reg/IF_Instr" type="array">
+      <obj_property name="ElementShortName">IF_Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_Instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/if_id_reg/BranchMisprediction" type="logic">
+      <obj_property name="ElementShortName">BranchMisprediction</obj_property>
+      <obj_property name="ObjectShortName">BranchMisprediction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/branch_predictor/branch_history_table[11]" type="array">
+      <obj_property name="ElementShortName">[11][1:0]</obj_property>
+      <obj_property name="ObjectShortName">[11][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[7]" type="array">
+      <obj_property name="ElementShortName">[7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[11]" type="array">
+      <obj_property name="ElementShortName">[11][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[12]" type="array">
+      <obj_property name="ElementShortName">[12][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[13]" type="array">
+      <obj_property name="ElementShortName">[13][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[14]" type="array">
+      <obj_property name="ElementShortName">[14][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[15]" type="array">
+      <obj_property name="ElementShortName">[15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[16]" type="array">
+      <obj_property name="ElementShortName">[16][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[17]" type="array">
+      <obj_property name="ElementShortName">[17][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[18]" type="array">
+      <obj_property name="ElementShortName">[18][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/unified_mem[257]" type="array">
+      <obj_property name="ElementShortName">[257][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[257][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[10]" type="array">
+      <obj_property name="ElementShortName">[10][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/controller/ID_Opcode" type="array">
+      <obj_property name="ElementShortName">ID_Opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/if_id_reg/ID_Instr" type="array">
+      <obj_property name="ElementShortName">ID_Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/Wr_WriteData" type="array">
+      <obj_property name="ElementShortName">Wr_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wr_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/Wr_Rd" type="array">
+      <obj_property name="ElementShortName">Wr_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Wr_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/alu/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/alu/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/alu/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/id_ex_reg/ID_RegWrite" type="logic">
+      <obj_property name="ElementShortName">ID_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/controller/ID_RegWrite" type="logic">
+      <obj_property name="ElementShortName">ID_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ex_mem_reg/Ex_RegWrite" type="logic">
+      <obj_property name="ElementShortName">Ex_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">Ex_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ex_mem_reg/Mem_RegWrite" type="logic">
+      <obj_property name="ElementShortName">Mem_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">Mem_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/mem_Wr_reg/Wr_RegWrite" type="logic">
+      <obj_property name="ElementShortName">Wr_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">Wr_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/mem_Wr_reg/Wr_PC" type="array">
+      <obj_property name="ElementShortName">Wr_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wr_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ex_mem_reg/Mem_PC" type="array">
+      <obj_property name="ElementShortName">Mem_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ex_mem_reg/Ex_PC" type="array">
+      <obj_property name="ElementShortName">Ex_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ex_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/id_ex_reg/ID_PC" type="array">
+      <obj_property name="ElementShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/if_id_reg/IF_PC" type="array">
+      <obj_property name="ElementShortName">IF_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/BranchMisprediction" type="logic">
+      <obj_property name="ElementShortName">BranchMisprediction</obj_property>
+      <obj_property name="ObjectShortName">BranchMisprediction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/IF_PredictPC" type="array">
+      <obj_property name="ElementShortName">IF_PredictPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PredictPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/IF_BranchPredict" type="logic">
+      <obj_property name="ElementShortName">IF_BranchPredict</obj_property>
+      <obj_property name="ObjectShortName">IF_BranchPredict</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/if_id_reg/BranchMisprediction" type="logic">
+      <obj_property name="ElementShortName">BranchMisprediction</obj_property>
+      <obj_property name="ObjectShortName">BranchMisprediction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/branch_predictor/branch_history_table[2]" type="array">
+      <obj_property name="ElementShortName">[2][1:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Mem_BranchTaken" type="logic">
+      <obj_property name="ElementShortName">Mem_BranchTaken</obj_property>
+      <obj_property name="ObjectShortName">Mem_BranchTaken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/IF_BranchPredict" type="logic">
+      <obj_property name="ElementShortName">IF_BranchPredict</obj_property>
+      <obj_property name="ObjectShortName">IF_BranchPredict</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ID_Imm" type="array">
+      <obj_property name="ElementShortName">ID_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ID_JumpReg" type="logic">
+      <obj_property name="ElementShortName">ID_JumpReg</obj_property>
+      <obj_property name="ObjectShortName">ID_JumpReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/PCNext" type="array">
+      <obj_property name="ElementShortName">PCNext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCNext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/pc_reg/PC_write" type="logic">
+      <obj_property name="ElementShortName">PC_write</obj_property>
+      <obj_property name="ObjectShortName">PC_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/Mem_WriteData" type="array">
+      <obj_property name="ElementShortName">Mem_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Ex_WriteData" type="array">
+      <obj_property name="ElementShortName">Ex_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ex_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/alu_input_mux/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Ex_Rs2_Data" type="array">
+      <obj_property name="ElementShortName">Ex_Rs2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ex_Rs2_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ID_Rs2_Data" type="array">
+      <obj_property name="ElementShortName">ID_Rs2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs2_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/unified_mem[256]" type="array">
+      <obj_property name="ElementShortName">[256][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[256][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/unified_mem[257]" type="array">
+      <obj_property name="ElementShortName">[257][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[257][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/unified_mem[258]" type="array">
+      <obj_property name="ElementShortName">[258][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[258][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/unified_mem[259]" type="array">
+      <obj_property name="ElementShortName">[259][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[259][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/unified_mem/unified_mem[260]" type="array">
+      <obj_property name="ElementShortName">[260][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[260][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ID_Rs2_Data" type="array">
+      <obj_property name="ElementShortName">ID_Rs2_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs2_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/ID_Rs2" type="array">
+      <obj_property name="ElementShortName">ID_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Mem_RegWrite" type="logic">
+      <obj_property name="ElementShortName">Mem_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">Mem_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Wr_RegWrite" type="logic">
+      <obj_property name="ElementShortName">Wr_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">Wr_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Mem_Rd" type="array">
+      <obj_property name="ElementShortName">Mem_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Ex_Rs2" type="array">
+      <obj_property name="ElementShortName">Ex_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ex_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/Wr_Rd" type="array">
+      <obj_property name="ElementShortName">Wr_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Wr_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_CPU_tb/dut/register_file/registers[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

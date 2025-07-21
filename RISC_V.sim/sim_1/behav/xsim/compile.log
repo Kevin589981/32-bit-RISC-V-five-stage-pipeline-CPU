@@ -1,0 +1,42 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/ALU_Input_Mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Input_Mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/Branch_Misprediction_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Misprediction_Unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Branch_Predictor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Predictor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/Branch_Target_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Target_Unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Ex_Mem_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex_Mem_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Forwarding_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forwarding_Unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Hazard_Detection_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/ID_Ex_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_Ex_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/IF_ID_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Immediate_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Immediate_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/JAL_Detection_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JAL_BEQ_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Mem_Wr_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_Wr_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/PC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/PC_Mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/RISC_V_CPU_Top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_CPU_Top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Register_File.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/imports/Project/Unified_Memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Unified_Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sources_1/new/Wr_Mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wr_Mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/1/desktop/Five_stage_RISC_V/RISC_V/RISC_V.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_CPU_tb
